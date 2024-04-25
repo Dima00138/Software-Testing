@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calc.js",
+  "scripts": {
+    "testA": " npx mocha ./src/tests/calc.spec.js",
+    "testB": " npx mocha ./src/tests/triangle.spec.js",
+    "test": "nyc --reporter= npx mocha ./src/tests/calc.spec.js && nyc --reporter= npx mocha ./src/tests/triangle.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
