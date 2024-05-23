@@ -10,5 +10,5 @@ describe('CommonConditions', function() {
         DriverSingleton.closeDriver();
     });
 
-    // Your tests go here
+    
 });

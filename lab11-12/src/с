@@ -1,0 +1,11 @@
+/*
+        Result = await Result.loadImage(badImagePath);
+        Result = await Result.clickButtonNext();
+        Result = await Result.inputProductName("namenamename1");
+        Result = await Result.clickButtonNext();
+        Result = await Result.inputAboutInfo("infoinfoinfoinfo1");
+        Result = await Result.clickButtonNext();
+        Result = await Result.inputPrice(99999999999999);
+        Result = await Result.clickButtonNext();
+        Result = await Result.errorInputPrice();
+*/

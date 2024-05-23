@@ -11,13 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/selenium-webdriver": "^4.1.22",
     "chai": "^4.3.10",
-    "chromedriver": "^119.0.1",
     "dotenv": "^16.3.1",
     "imap-simple": "^5.1.0",
     "lodash": "^4.17.21",
     "mailparser": "^3.6.5",
     "mocha": "^10.2.0",
-    "selenium-webdriver": "^4.15.0"
+    "selenium-webdriver": "^4.21.0"
   }
 }
